@@ -1,0 +1,790 @@
+weight_crc: 1
+weight_align: 1
+cps_weight: 1
+quantization_type: swdc
+save: ./checkpoints/3DMNIST/1000/
+dataset: 3DMNIST
+num_classes: 10
+n_labeled: 1000
+#Labeled: 1000 #Unlabeled: 4000 #test: 1000
+
+Epoch: [0 | 50] 
+
+Threshold: [0.7, 0.7, 0.7, 0.7, 0.7, 0.7, 0.7, 0.7, 0.7, 0.7]
+[0][0] time: 3.463067 vid: 50
+loss: 45.589756  crc_loss: 18.004391 align_loss: 18.158035 cps_loss: 9.328351 quan_loss: 0.098981 semi_mg_loss: 0.000000  global_loss: 10.778781 
+----------------- Save The Network ------------------------
+length of the dataset:  1000
+number of img views:  1
+Image2Pt---------------------------
+58.67
+Pt2Image---------------------------
+58.51
+average---------------------------
+58.59
+{'Image2Pt': '58.67', 'Pt2Image': '58.51', 'average': 58.59}
+
+Epoch: [1 | 50] 
+
+Threshold: [0.7, 0.7, 0.7, 0.7, 0.7, 0.7, 0.7, 0.7, 0.7, 0.7]
+[1][100] time: 1.265786 vid: 50
+loss: 29.617380  crc_loss: 15.503670 align_loss: 7.024215 cps_loss: 6.989517 quan_loss: 0.099978 semi_mg_loss: 1.246650  global_loss: 8.708720 
+----------------- Save The Network ------------------------
+length of the dataset:  1000
+number of img views:  1
+Image2Pt---------------------------
+80.49
+Pt2Image---------------------------
+81.63
+average---------------------------
+81.06
+{'Image2Pt': '80.49', 'Pt2Image': '81.63', 'average': 81.06}
+
+Epoch: [2 | 50] 
+
+Threshold: [0.7, 0.7, 0.7, 0.7, 0.7, 0.7, 0.7, 0.7, 0.7, 0.7]
+[2][200] time: 1.290281 vid: 50
+loss: 22.311659  crc_loss: 11.230371 align_loss: 5.707848 cps_loss: 5.260783 quan_loss: 0.112658 semi_mg_loss: 5.387645  global_loss: 7.227071 
+----------------- Save The Network ------------------------
+length of the dataset:  1000
+number of img views:  1
+Image2Pt---------------------------
+86.64
+Pt2Image---------------------------
+87.51
+average---------------------------
+87.07
+{'Image2Pt': '86.64', 'Pt2Image': '87.51', 'average': 87.07}
+
+Epoch: [3 | 50] 
+
+Threshold: [0.7, 0.7, 0.7, 0.7, 0.7, 0.7, 0.7, 0.7, 0.7, 0.7]
+[3][300] time: 1.304360 vid: 50
+loss: 19.209505  crc_loss: 9.285667 align_loss: 5.040082 cps_loss: 4.765059 quan_loss: 0.118696 semi_mg_loss: 6.325799  global_loss: 5.886837 
+----------------- Save The Network ------------------------
+length of the dataset:  1000
+number of img views:  1
+Image2Pt---------------------------
+89.28
+Pt2Image---------------------------
+89.74
+average---------------------------
+89.51
+{'Image2Pt': '89.28', 'Pt2Image': '89.74', 'average': 89.51}
+
+Epoch: [4 | 50] 
+
+Threshold: [tensor(0.7182), 0.7, 0.7, 0.7, 0.7, 0.7, 0.7, 0.7, 0.7, 0.7]
+----------------- Save The Network ------------------------
+length of the dataset:  1000
+number of img views:  1
+Image2Pt---------------------------
+90.54
+Pt2Image---------------------------
+90.34
+average---------------------------
+90.44
+{'Image2Pt': '90.54', 'Pt2Image': '90.34', 'average': 90.44}
+
+Epoch: [5 | 50] 
+
+Threshold: [tensor(0.7724), tensor(0.7545), tensor(0.7182), tensor(0.7602), tensor(0.7400), tensor(0.7688), tensor(0.7573), tensor(0.7791), tensor(0.7563), tensor(0.7182)]
+[5][400] time: 0.738352 vid: 50
+loss: 18.833275  crc_loss: 9.078362 align_loss: 4.967898 cps_loss: 4.665864 quan_loss: 0.121151 semi_mg_loss: 6.678070  global_loss: 4.795620 
+----------------- Save The Network ------------------------
+length of the dataset:  1000
+number of img views:  1
+Image2Pt---------------------------
+90.74
+Pt2Image---------------------------
+90.74
+average---------------------------
+90.74
+{'Image2Pt': '90.74', 'Pt2Image': '90.74', 'average': 90.74}
+
+Epoch: [6 | 50] 
+
+Threshold: [tensor(0.8263), tensor(0.8061), tensor(0.7865), tensor(0.8175), tensor(0.7994), tensor(0.7875), tensor(0.8026), tensor(0.8054), tensor(0.8074), tensor(0.7724)]
+[6][500] time: 1.312797 vid: 50
+loss: 18.248573  crc_loss: 8.972249 align_loss: 4.748396 cps_loss: 4.403980 quan_loss: 0.123947 semi_mg_loss: 6.869467  global_loss: 4.020035 
+----------------- Save The Network ------------------------
+length of the dataset:  1000
+number of img views:  1
+Image2Pt---------------------------
+91.11
+Pt2Image---------------------------
+91.04
+average---------------------------
+91.08
+{'Image2Pt': '91.11', 'Pt2Image': '91.04', 'average': 91.08}
+
+Epoch: [7 | 50] 
+
+Threshold: [tensor(0.8472), tensor(0.8347), tensor(0.8263), tensor(0.8399), tensor(0.8428), tensor(0.8263), tensor(0.8308), tensor(0.8486), tensor(0.8381), tensor(0.8263)]
+[7][600] time: 1.439520 vid: 50
+loss: 17.897514  crc_loss: 8.972928 align_loss: 4.748024 cps_loss: 4.052050 quan_loss: 0.124511 semi_mg_loss: 6.532029  global_loss: 3.546794 
+----------------- Save The Network ------------------------
+length of the dataset:  1000
+number of img views:  1
+Image2Pt---------------------------
+91.14
+Pt2Image---------------------------
+91.14
+average---------------------------
+91.14
+{'Image2Pt': '91.14', 'Pt2Image': '91.14', 'average': 91.14}
+
+Epoch: [8 | 50] 
+
+Threshold: [tensor(0.8659), tensor(0.8534), tensor(0.8472), tensor(0.8744), tensor(0.8582), tensor(0.8472), tensor(0.8552), tensor(0.8838), tensor(0.8707), tensor(0.8472)]
+[8][700] time: 1.469331 vid: 50
+loss: 16.634832  crc_loss: 8.458056 align_loss: 4.850768 cps_loss: 3.208235 quan_loss: 0.117773 semi_mg_loss: 6.179926  global_loss: 3.439181 
+----------------- Save The Network ------------------------
+length of the dataset:  1000
+number of img views:  1
+Image2Pt---------------------------
+89.45
+Pt2Image---------------------------
+90.12
+average---------------------------
+89.78
+{'Image2Pt': '91.14', 'Pt2Image': '91.14', 'average': 91.14}
+
+Epoch: [9 | 50] 
+
+Threshold: [tensor(0.8964), tensor(0.8695), tensor(0.8659), tensor(0.9229), tensor(0.8751), tensor(0.8659), tensor(0.8803), tensor(0.9480), tensor(0.9032), tensor(0.8659)]
+----------------- Save The Network ------------------------
+length of the dataset:  1000
+number of img views:  1
+Image2Pt---------------------------
+88.41
+Pt2Image---------------------------
+89.07
+average---------------------------
+88.74
+{'Image2Pt': '91.14', 'Pt2Image': '91.14', 'average': 91.14}
+
+Epoch: [10 | 50] 
+
+Threshold: [tensor(0.9369), tensor(0.8964), tensor(0.8964), tensor(0.9614), tensor(0.8965), tensor(0.8964), tensor(0.9102), tensor(0.9687), tensor(0.9358), tensor(0.8964)]
+[10][800] time: 0.434464 vid: 50
+loss: 13.049394  crc_loss: 6.169666 align_loss: 5.042315 cps_loss: 1.754355 quan_loss: 0.083059 semi_mg_loss: 4.914426  global_loss: 3.383403 
+----------------- Save The Network ------------------------
+length of the dataset:  1000
+number of img views:  1
+Image2Pt---------------------------
+87.72
+Pt2Image---------------------------
+88.78
+average---------------------------
+88.25
+{'Image2Pt': '91.14', 'Pt2Image': '91.14', 'average': 91.14}
+
+Epoch: [11 | 50] 
+
+Threshold: [tensor(0.9680), tensor(0.9369), tensor(0.9369), tensor(0.9661), tensor(0.9592), tensor(0.9427), tensor(0.9648), tensor(0.9699), tensor(0.9648), tensor(0.9369)]
+[11][900] time: 1.383760 vid: 50
+loss: 8.821432  crc_loss: 2.995370 align_loss: 5.196277 cps_loss: 0.599599 quan_loss: 0.030186 semi_mg_loss: 4.480664  global_loss: 3.249985 
+----------------- Save The Network ------------------------
+length of the dataset:  1000
+number of img views:  1
+Image2Pt---------------------------
+89.42
+Pt2Image---------------------------
+90.24
+average---------------------------
+89.83
+{'Image2Pt': '91.14', 'Pt2Image': '91.14', 'average': 91.14}
+
+Epoch: [12 | 50] 
+
+Threshold: [tensor(0.9690), tensor(0.9680), tensor(0.9680), tensor(0.9680), tensor(0.9680), tensor(0.9680), tensor(0.9680), tensor(0.9699), tensor(0.9680), tensor(0.9680)]
+[12][1000] time: 1.280880 vid: 50
+loss: 7.298633  crc_loss: 1.982072 align_loss: 5.045716 cps_loss: 0.251716 quan_loss: 0.019129 semi_mg_loss: 5.467173  global_loss: 3.166898 
+----------------- Save The Network ------------------------
+length of the dataset:  1000
+number of img views:  1
+Image2Pt---------------------------
+90.0
+Pt2Image---------------------------
+90.71
+average---------------------------
+90.36
+{'Image2Pt': '91.14', 'Pt2Image': '91.14', 'average': 91.14}
+
+Epoch: [13 | 50] 
+
+Threshold: [tensor(0.9697), tensor(0.9690), tensor(0.9690), tensor(0.9690), tensor(0.9690), tensor(0.9690), tensor(0.9690), tensor(0.9699), tensor(0.9690), tensor(0.9690)]
+[13][1100] time: 1.478839 vid: 50
+loss: 6.308979  crc_loss: 1.162637 align_loss: 4.833351 cps_loss: 0.298654 quan_loss: 0.014338 semi_mg_loss: 5.628106  global_loss: 3.095409 
+----------------- Save The Network ------------------------
+length of the dataset:  1000
+number of img views:  1
+Image2Pt---------------------------
+90.16
+Pt2Image---------------------------
+90.67
+average---------------------------
+90.42
+{'Image2Pt': '91.14', 'Pt2Image': '91.14', 'average': 91.14}
+
+Epoch: [14 | 50] 
+
+Threshold: [tensor(0.9697), tensor(0.9697), tensor(0.9697), tensor(0.9697), tensor(0.9697), tensor(0.9697), tensor(0.9697), tensor(0.9699), tensor(0.9697), tensor(0.9697)]
+----------------- Save The Network ------------------------
+length of the dataset:  1000
+number of img views:  1
+Image2Pt---------------------------
+90.91
+Pt2Image---------------------------
+91.41
+average---------------------------
+91.16
+{'Image2Pt': '90.91', 'Pt2Image': '91.41', 'average': 91.16}
+
+Epoch: [15 | 50] 
+
+Threshold: [tensor(0.9697), tensor(0.9697), tensor(0.9697), tensor(0.9697), tensor(0.9697), tensor(0.9697), tensor(0.9697), tensor(0.9698), tensor(0.9697), tensor(0.9697)]
+[15][1200] time: 0.577573 vid: 50
+loss: 6.562694  crc_loss: 1.627915 align_loss: 4.731422 cps_loss: 0.188207 quan_loss: 0.015150 semi_mg_loss: 5.945382  global_loss: 3.026412 
+----------------- Save The Network ------------------------
+length of the dataset:  1000
+number of img views:  1
+Image2Pt---------------------------
+91.63
+Pt2Image---------------------------
+91.72
+average---------------------------
+91.67
+{'Image2Pt': '91.63', 'Pt2Image': '91.72', 'average': 91.67}
+
+Epoch: [16 | 50] 
+
+Threshold: [tensor(0.9697), tensor(0.9697), tensor(0.9697), tensor(0.9699), tensor(0.9697), tensor(0.9697), tensor(0.9697), tensor(0.9699), tensor(0.9698), tensor(0.9697)]
+[16][1300] time: 1.538996 vid: 50
+loss: 5.878468  crc_loss: 0.828331 align_loss: 4.768708 cps_loss: 0.265101 quan_loss: 0.016328 semi_mg_loss: 5.960384  global_loss: 2.953777 
+----------------- Save The Network ------------------------
+length of the dataset:  1000
+number of img views:  1
+Image2Pt---------------------------
+91.95
+Pt2Image---------------------------
+91.63
+average---------------------------
+91.79
+{'Image2Pt': '91.95', 'Pt2Image': '91.63', 'average': 91.79}
+
+Epoch: [17 | 50] 
+
+Threshold: [tensor(0.9697), tensor(0.9698), tensor(0.9697), tensor(0.9698), tensor(0.9697), tensor(0.9697), tensor(0.9698), tensor(0.9699), tensor(0.9698), tensor(0.9697)]
+[17][1400] time: 1.544308 vid: 50
+loss: 6.145678  crc_loss: 1.219649 align_loss: 4.842876 cps_loss: 0.065035 quan_loss: 0.018117 semi_mg_loss: 5.772434  global_loss: 2.875082 
+----------------- Save The Network ------------------------
+length of the dataset:  1000
+number of img views:  1
+Image2Pt---------------------------
+92.14
+Pt2Image---------------------------
+91.99
+average---------------------------
+92.07
+{'Image2Pt': '92.14', 'Pt2Image': '91.99', 'average': 92.07}
+
+Epoch: [18 | 50] 
+
+Threshold: [tensor(0.9698), tensor(0.9698), tensor(0.9697), tensor(0.9698), tensor(0.9697), tensor(0.9697), tensor(0.9698), tensor(0.9699), tensor(0.9699), tensor(0.9697)]
+[18][1500] time: 1.486953 vid: 50
+loss: 5.390688  crc_loss: 0.410614 align_loss: 4.847200 cps_loss: 0.120937 quan_loss: 0.011938 semi_mg_loss: 5.564898  global_loss: 2.791107 
+----------------- Save The Network ------------------------
+length of the dataset:  1000
+number of img views:  1
+Image2Pt---------------------------
+92.28
+Pt2Image---------------------------
+91.94
+average---------------------------
+92.11
+{'Image2Pt': '92.28', 'Pt2Image': '91.94', 'average': 92.11}
+
+Epoch: [19 | 50] 
+
+Threshold: [tensor(0.9699), tensor(0.9698), tensor(0.9698), tensor(0.9699), tensor(0.9699), tensor(0.9698), tensor(0.9699), tensor(0.9700), tensor(0.9698), tensor(0.9698)]
+----------------- Save The Network ------------------------
+length of the dataset:  1000
+number of img views:  1
+Image2Pt---------------------------
+92.47
+Pt2Image---------------------------
+92.19
+average---------------------------
+92.33
+{'Image2Pt': '92.47', 'Pt2Image': '92.19', 'average': 92.33}
+
+Epoch: [20 | 50] 
+
+Threshold: [tensor(0.9699), tensor(0.9699), tensor(0.9699), tensor(0.9699), tensor(0.9699), tensor(0.9699), tensor(0.9699), tensor(0.9700), tensor(0.9699), tensor(0.9699)]
+[20][1600] time: 0.199711 vid: 50
+loss: 5.905206  crc_loss: 1.208177 align_loss: 4.643580 cps_loss: 0.042960 quan_loss: 0.010489 semi_mg_loss: 5.785388  global_loss: 2.702124 
+----------------- Save The Network ------------------------
+length of the dataset:  1000
+number of img views:  1
+Image2Pt---------------------------
+92.7
+Pt2Image---------------------------
+92.31
+average---------------------------
+92.51
+{'Image2Pt': '92.7', 'Pt2Image': '92.31', 'average': 92.51}
+
+Epoch: [21 | 50] 
+
+Threshold: [tensor(0.9699), tensor(0.9699), tensor(0.9699), tensor(0.9699), tensor(0.9699), tensor(0.9699), tensor(0.9699), tensor(0.9700), tensor(0.9699), tensor(0.9699)]
+[21][1700] time: 1.388355 vid: 50
+loss: 5.895079  crc_loss: 1.007136 align_loss: 4.752615 cps_loss: 0.122331 quan_loss: 0.012996 semi_mg_loss: 6.263152  global_loss: 2.611003 
+----------------- Save The Network ------------------------
+length of the dataset:  1000
+number of img views:  1
+Image2Pt---------------------------
+92.9
+Pt2Image---------------------------
+92.28
+average---------------------------
+92.59
+{'Image2Pt': '92.9', 'Pt2Image': '92.28', 'average': 92.59}
+
+Epoch: [22 | 50] 
+
+Threshold: [tensor(0.9699), tensor(0.9699), tensor(0.9699), tensor(0.9699), tensor(0.9699), tensor(0.9699), tensor(0.9699), tensor(0.9700), tensor(0.9699), tensor(0.9699)]
+[22][1800] time: 1.535008 vid: 50
+loss: 6.317351  crc_loss: 1.402178 align_loss: 4.834037 cps_loss: 0.057908 quan_loss: 0.023229 semi_mg_loss: 6.426029  global_loss: 2.520062 
+----------------- Save The Network ------------------------
+length of the dataset:  1000
+number of img views:  1
+Image2Pt---------------------------
+93.03
+Pt2Image---------------------------
+92.42
+average---------------------------
+92.72
+{'Image2Pt': '93.03', 'Pt2Image': '92.42', 'average': 92.72}
+
+Epoch: [23 | 50] 
+
+Threshold: [tensor(0.9700), tensor(0.9699), tensor(0.9699), tensor(0.9699), tensor(0.9699), tensor(0.9699), tensor(0.9699), tensor(0.9700), tensor(0.9699), tensor(0.9699)]
+[23][1900] time: 1.488765 vid: 50
+loss: 6.192196  crc_loss: 1.203388 align_loss: 4.741685 cps_loss: 0.236431 quan_loss: 0.010691 semi_mg_loss: 5.184626  global_loss: 2.424785 
+----------------- Save The Network ------------------------
+length of the dataset:  1000
+number of img views:  1
+Image2Pt---------------------------
+93.02
+Pt2Image---------------------------
+92.61
+average---------------------------
+92.82
+{'Image2Pt': '93.02', 'Pt2Image': '92.61', 'average': 92.82}
+
+Epoch: [24 | 50] 
+
+Threshold: [tensor(0.9700), tensor(0.9700), tensor(0.9700), tensor(0.9700), tensor(0.9700), tensor(0.9700), tensor(0.9700), tensor(0.9700), tensor(0.9700), tensor(0.9700)]
+----------------- Save The Network ------------------------
+length of the dataset:  1000
+number of img views:  1
+Image2Pt---------------------------
+93.26
+Pt2Image---------------------------
+92.65
+average---------------------------
+92.96
+{'Image2Pt': '93.26', 'Pt2Image': '92.65', 'average': 92.96}
+
+Epoch: [25 | 50] 
+
+Threshold: [tensor(0.9700), tensor(0.9700), tensor(0.9700), tensor(0.9700), tensor(0.9700), tensor(0.9700), tensor(0.9700), tensor(0.9700), tensor(0.9700), tensor(0.9700)]
+[25][2000] time: 0.443903 vid: 50
+loss: 5.063670  crc_loss: 0.402463 align_loss: 4.650479 cps_loss: 0.000970 quan_loss: 0.009758 semi_mg_loss: 5.728711  global_loss: 2.329319 
+----------------- Save The Network ------------------------
+length of the dataset:  1000
+number of img views:  1
+Image2Pt---------------------------
+93.21
+Pt2Image---------------------------
+92.49
+average---------------------------
+92.85
+{'Image2Pt': '93.26', 'Pt2Image': '92.65', 'average': 92.96}
+
+Epoch: [26 | 50] 
+
+Threshold: [tensor(0.9700), tensor(0.9700), tensor(0.9700), tensor(0.9700), tensor(0.9700), tensor(0.9700), tensor(0.9700), tensor(0.9700), tensor(0.9700), tensor(0.9700)]
+[26][2100] time: 1.547290 vid: 50
+loss: 5.674360  crc_loss: 1.001407 align_loss: 4.573338 cps_loss: 0.090783 quan_loss: 0.008832 semi_mg_loss: 5.627468  global_loss: 2.229666 
+----------------- Save The Network ------------------------
+length of the dataset:  1000
+number of img views:  1
+Image2Pt---------------------------
+93.25
+Pt2Image---------------------------
+92.58
+average---------------------------
+92.92
+{'Image2Pt': '93.26', 'Pt2Image': '92.65', 'average': 92.96}
+
+Epoch: [27 | 50] 
+
+Threshold: [tensor(0.9700), tensor(0.9700), tensor(0.9700), tensor(0.9700), tensor(0.9700), tensor(0.9700), tensor(0.9700), tensor(0.9700), tensor(0.9700), tensor(0.9700)]
+[27][2200] time: 1.609746 vid: 50
+loss: 5.909249  crc_loss: 1.200621 align_loss: 4.605180 cps_loss: 0.092107 quan_loss: 0.011341 semi_mg_loss: 5.429133  global_loss: 2.131615 
+----------------- Save The Network ------------------------
+length of the dataset:  1000
+number of img views:  1
+Image2Pt---------------------------
+93.16
+Pt2Image---------------------------
+92.44
+average---------------------------
+92.8
+{'Image2Pt': '93.26', 'Pt2Image': '92.65', 'average': 92.96}
+
+Epoch: [28 | 50] 
+
+Threshold: [tensor(0.9700), tensor(0.9700), tensor(0.9700), tensor(0.9700), tensor(0.9700), tensor(0.9700), tensor(0.9700), tensor(0.9700), tensor(0.9700), tensor(0.9700)]
+[28][2300] time: 1.573945 vid: 50
+loss: 5.633575  crc_loss: 0.800953 align_loss: 4.819589 cps_loss: 0.002683 quan_loss: 0.010350 semi_mg_loss: 5.312898  global_loss: 2.031707 
+----------------- Save The Network ------------------------
+length of the dataset:  1000
+number of img views:  1
+Image2Pt---------------------------
+93.38
+Pt2Image---------------------------
+92.44
+average---------------------------
+92.91
+{'Image2Pt': '93.26', 'Pt2Image': '92.65', 'average': 92.96}
+
+Epoch: [29 | 50] 
+
+Threshold: [tensor(0.9700), tensor(0.9700), tensor(0.9700), tensor(0.9700), tensor(0.9700), tensor(0.9700), tensor(0.9700), tensor(0.9700), tensor(0.9700), tensor(0.9700)]
+----------------- Save The Network ------------------------
+length of the dataset:  1000
+number of img views:  1
+Image2Pt---------------------------
+93.27
+Pt2Image---------------------------
+92.52
+average---------------------------
+92.89
+{'Image2Pt': '93.26', 'Pt2Image': '92.65', 'average': 92.96}
+
+Epoch: [30 | 50] 
+
+Threshold: [tensor(0.9700), tensor(0.9700), tensor(0.9700), tensor(0.9700), tensor(0.9700), tensor(0.9700), tensor(0.9700), tensor(0.9700), tensor(0.9700), tensor(0.9700)]
+[30][2400] time: 0.849314 vid: 50
+loss: 5.667722  crc_loss: 0.600894 align_loss: 4.845608 cps_loss: 0.210392 quan_loss: 0.010829 semi_mg_loss: 5.189206  global_loss: 1.935405 
+----------------- Save The Network ------------------------
+length of the dataset:  1000
+number of img views:  1
+Image2Pt---------------------------
+93.22
+Pt2Image---------------------------
+92.63
+average---------------------------
+92.92
+{'Image2Pt': '93.26', 'Pt2Image': '92.65', 'average': 92.96}
+
+Epoch: [31 | 50] 
+
+Threshold: [tensor(0.9700), tensor(0.9700), tensor(0.9700), tensor(0.9700), tensor(0.9700), tensor(0.9700), tensor(0.9700), tensor(0.9700), tensor(0.9700), tensor(0.9700)]
+[31][2500] time: 1.481213 vid: 50
+loss: 5.435194  crc_loss: 0.800501 align_loss: 4.600275 cps_loss: 0.025060 quan_loss: 0.009359 semi_mg_loss: 6.612041  global_loss: 1.834330 
+----------------- Save The Network ------------------------
+length of the dataset:  1000
+number of img views:  1
+Image2Pt---------------------------
+93.36
+Pt2Image---------------------------
+92.48
+average---------------------------
+92.92
+{'Image2Pt': '93.26', 'Pt2Image': '92.65', 'average': 92.96}
+
+Epoch: [32 | 50] 
+
+Threshold: [tensor(0.9700), tensor(0.9700), tensor(0.9700), tensor(0.9700), tensor(0.9700), tensor(0.9700), tensor(0.9700), tensor(0.9700), tensor(0.9700), tensor(0.9700)]
+[32][2600] time: 1.493602 vid: 50
+loss: 5.641112  crc_loss: 0.600232 align_loss: 4.952096 cps_loss: 0.075428 quan_loss: 0.013357 semi_mg_loss: 5.770423  global_loss: 1.736089 
+----------------- Save The Network ------------------------
+length of the dataset:  1000
+number of img views:  1
+Image2Pt---------------------------
+93.42
+Pt2Image---------------------------
+92.58
+average---------------------------
+93.0
+{'Image2Pt': '93.42', 'Pt2Image': '92.58', 'average': 93.0}
+
+Epoch: [33 | 50] 
+
+Threshold: [tensor(0.9700), tensor(0.9700), tensor(0.9700), tensor(0.9700), tensor(0.9700), tensor(0.9700), tensor(0.9700), tensor(0.9700), tensor(0.9700), tensor(0.9700)]
+[33][2700] time: 1.543691 vid: 50
+loss: 5.437764  crc_loss: 0.800553 align_loss: 4.620505 cps_loss: 0.007497 quan_loss: 0.009208 semi_mg_loss: 5.597590  global_loss: 1.637851 
+----------------- Save The Network ------------------------
+length of the dataset:  1000
+number of img views:  1
+Image2Pt---------------------------
+93.44
+Pt2Image---------------------------
+92.68
+average---------------------------
+93.06
+{'Image2Pt': '93.44', 'Pt2Image': '92.68', 'average': 93.06}
+
+Epoch: [34 | 50] 
+
+Threshold: [tensor(0.9700), tensor(0.9700), tensor(0.9700), tensor(0.9700), tensor(0.9700), tensor(0.9700), tensor(0.9700), tensor(0.9700), tensor(0.9700), tensor(0.9700)]
+----------------- Save The Network ------------------------
+length of the dataset:  1000
+number of img views:  1
+Image2Pt---------------------------
+93.57
+Pt2Image---------------------------
+92.78
+average---------------------------
+93.18
+{'Image2Pt': '93.57', 'Pt2Image': '92.78', 'average': 93.18}
+
+Epoch: [35 | 50] 
+
+Threshold: [tensor(0.9700), tensor(0.9700), tensor(0.9700), tensor(0.9700), tensor(0.9700), tensor(0.9700), tensor(0.9700), tensor(0.9700), tensor(0.9700), tensor(0.9700)]
+[35][2800] time: 0.326006 vid: 50
+loss: 5.077096  crc_loss: 0.400729 align_loss: 4.634279 cps_loss: 0.033532 quan_loss: 0.008556 semi_mg_loss: 6.341130  global_loss: 1.540790 
+----------------- Save The Network ------------------------
+length of the dataset:  1000
+number of img views:  1
+Image2Pt---------------------------
+93.6
+Pt2Image---------------------------
+92.73
+average---------------------------
+93.16
+{'Image2Pt': '93.57', 'Pt2Image': '92.78', 'average': 93.18}
+
+Epoch: [36 | 50] 
+
+Threshold: [tensor(0.9700), tensor(0.9700), tensor(0.9700), tensor(0.9700), tensor(0.9700), tensor(0.9700), tensor(0.9700), tensor(0.9700), tensor(0.9700), tensor(0.9700)]
+[36][2900] time: 1.484671 vid: 50
+loss: 5.508398  crc_loss: 0.600484 align_loss: 4.642010 cps_loss: 0.257568 quan_loss: 0.008336 semi_mg_loss: 7.879953  global_loss: 1.444586 
+----------------- Save The Network ------------------------
+length of the dataset:  1000
+number of img views:  1
+Image2Pt---------------------------
+93.42
+Pt2Image---------------------------
+92.73
+average---------------------------
+93.07
+{'Image2Pt': '93.57', 'Pt2Image': '92.78', 'average': 93.18}
+
+Epoch: [37 | 50] 
+
+Threshold: [tensor(0.9700), tensor(0.9700), tensor(0.9700), tensor(0.9700), tensor(0.9700), tensor(0.9700), tensor(0.9700), tensor(0.9700), tensor(0.9700), tensor(0.9700)]
+[37][3000] time: 1.442124 vid: 50
+loss: 5.598728  crc_loss: 0.800337 align_loss: 4.719832 cps_loss: 0.067021 quan_loss: 0.011538 semi_mg_loss: 6.127769  global_loss: 1.355454 
+----------------- Save The Network ------------------------
+length of the dataset:  1000
+number of img views:  1
+Image2Pt---------------------------
+93.58
+Pt2Image---------------------------
+92.59
+average---------------------------
+93.08
+{'Image2Pt': '93.57', 'Pt2Image': '92.78', 'average': 93.18}
+
+Epoch: [38 | 50] 
+
+Threshold: [tensor(0.9700), tensor(0.9700), tensor(0.9700), tensor(0.9700), tensor(0.9700), tensor(0.9700), tensor(0.9700), tensor(0.9700), tensor(0.9700), tensor(0.9700)]
+[38][3100] time: 1.496627 vid: 50
+loss: 4.982630  crc_loss: 0.200701 align_loss: 4.713811 cps_loss: 0.055613 quan_loss: 0.012505 semi_mg_loss: 7.365586  global_loss: 1.269457 
+----------------- Save The Network ------------------------
+length of the dataset:  1000
+number of img views:  1
+Image2Pt---------------------------
+93.56
+Pt2Image---------------------------
+92.52
+average---------------------------
+93.04
+{'Image2Pt': '93.57', 'Pt2Image': '92.78', 'average': 93.18}
+
+Epoch: [39 | 50] 
+
+Threshold: [tensor(0.9700), tensor(0.9700), tensor(0.9700), tensor(0.9700), tensor(0.9700), tensor(0.9700), tensor(0.9700), tensor(0.9700), tensor(0.9700), tensor(0.9700)]
+----------------- Save The Network ------------------------
+length of the dataset:  1000
+number of img views:  1
+Image2Pt---------------------------
+93.73
+Pt2Image---------------------------
+93.15
+average---------------------------
+93.44
+{'Image2Pt': '93.73', 'Pt2Image': '93.15', 'average': 93.44}
+
+Epoch: [40 | 50] 
+
+Threshold: [tensor(0.9700), tensor(0.9700), tensor(0.9700), tensor(0.9700), tensor(0.9700), tensor(0.9700), tensor(0.9700), tensor(0.9700), tensor(0.9700), tensor(0.9700)]
+[40][3200] time: 0.163161 vid: 50
+loss: 6.445673  crc_loss: 1.403824 align_loss: 4.795870 cps_loss: 0.233050 quan_loss: 0.012929 semi_mg_loss: 6.120697  global_loss: 1.183374 
+----------------- Save The Network ------------------------
+length of the dataset:  1000
+number of img views:  1
+Image2Pt---------------------------
+93.56
+Pt2Image---------------------------
+92.76
+average---------------------------
+93.16
+{'Image2Pt': '93.73', 'Pt2Image': '93.15', 'average': 93.44}
+
+Epoch: [41 | 50] 
+
+Threshold: [tensor(0.9700), tensor(0.9700), tensor(0.9700), tensor(0.9700), tensor(0.9700), tensor(0.9700), tensor(0.9700), tensor(0.9700), tensor(0.9700), tensor(0.9700)]
+[41][3300] time: 1.425744 vid: 50
+loss: 6.259603  crc_loss: 1.600186 align_loss: 4.649473 cps_loss: 0.002709 quan_loss: 0.007235 semi_mg_loss: 7.676715  global_loss: 1.102474 
+----------------- Save The Network ------------------------
+length of the dataset:  1000
+number of img views:  1
+Image2Pt---------------------------
+93.58
+Pt2Image---------------------------
+92.53
+average---------------------------
+93.06
+{'Image2Pt': '93.73', 'Pt2Image': '93.15', 'average': 93.44}
+
+Epoch: [42 | 50] 
+
+Threshold: [tensor(0.9700), tensor(0.9700), tensor(0.9700), tensor(0.9700), tensor(0.9700), tensor(0.9700), tensor(0.9700), tensor(0.9700), tensor(0.9700), tensor(0.9700)]
+[42][3400] time: 1.583697 vid: 50
+loss: 5.564330  crc_loss: 0.800647 align_loss: 4.751369 cps_loss: 0.004854 quan_loss: 0.007461 semi_mg_loss: 5.859965  global_loss: 1.018107 
+----------------- Save The Network ------------------------
+length of the dataset:  1000
+number of img views:  1
+Image2Pt---------------------------
+93.76
+Pt2Image---------------------------
+92.86
+average---------------------------
+93.31
+{'Image2Pt': '93.73', 'Pt2Image': '93.15', 'average': 93.44}
+
+Epoch: [43 | 50] 
+
+Threshold: [tensor(0.9700), tensor(0.9700), tensor(0.9700), tensor(0.9700), tensor(0.9700), tensor(0.9700), tensor(0.9700), tensor(0.9700), tensor(0.9700), tensor(0.9700)]
+[43][3500] time: 1.618477 vid: 50
+loss: 5.541524  crc_loss: 1.000086 align_loss: 4.530530 cps_loss: 0.005135 quan_loss: 0.005771 semi_mg_loss: 5.866456  global_loss: 0.941416 
+----------------- Save The Network ------------------------
+length of the dataset:  1000
+number of img views:  1
+Image2Pt---------------------------
+93.67
+Pt2Image---------------------------
+92.71
+average---------------------------
+93.19
+{'Image2Pt': '93.73', 'Pt2Image': '93.15', 'average': 93.44}
+
+Epoch: [44 | 50] 
+
+Threshold: [tensor(0.9700), tensor(0.9700), tensor(0.9700), tensor(0.9700), tensor(0.9700), tensor(0.9700), tensor(0.9700), tensor(0.9700), tensor(0.9700), tensor(0.9700)]
+----------------- Save The Network ------------------------
+length of the dataset:  1000
+number of img views:  1
+Image2Pt---------------------------
+93.72
+Pt2Image---------------------------
+92.68
+average---------------------------
+93.2
+{'Image2Pt': '93.73', 'Pt2Image': '93.15', 'average': 93.44}
+
+Epoch: [45 | 50] 
+
+Threshold: [tensor(0.9700), tensor(0.9700), tensor(0.9700), tensor(0.9700), tensor(0.9700), tensor(0.9700), tensor(0.9700), tensor(0.9700), tensor(0.9700), tensor(0.9700)]
+[45][3600] time: 0.417646 vid: 50
+loss: 5.877863  crc_loss: 1.200091 align_loss: 4.593248 cps_loss: 0.078782 quan_loss: 0.005743 semi_mg_loss: 6.256079  global_loss: 0.868697 
+----------------- Save The Network ------------------------
+length of the dataset:  1000
+number of img views:  1
+Image2Pt---------------------------
+93.68
+Pt2Image---------------------------
+92.58
+average---------------------------
+93.13
+{'Image2Pt': '93.73', 'Pt2Image': '93.15', 'average': 93.44}
+
+Epoch: [46 | 50] 
+
+Threshold: [tensor(0.9700), tensor(0.9700), tensor(0.9700), tensor(0.9700), tensor(0.9700), tensor(0.9700), tensor(0.9700), tensor(0.9700), tensor(0.9700), tensor(0.9700)]
+[46][3700] time: 1.500132 vid: 50
+loss: 5.466197  crc_loss: 0.800035 align_loss: 4.584586 cps_loss: 0.074721 quan_loss: 0.006856 semi_mg_loss: 7.790819  global_loss: 0.801508 
+----------------- Save The Network ------------------------
+length of the dataset:  1000
+number of img views:  1
+Image2Pt---------------------------
+93.82
+Pt2Image---------------------------
+92.65
+average---------------------------
+93.24
+{'Image2Pt': '93.73', 'Pt2Image': '93.15', 'average': 93.44}
+
+Epoch: [47 | 50] 
+
+Threshold: [tensor(0.9700), tensor(0.9700), tensor(0.9700), tensor(0.9700), tensor(0.9700), tensor(0.9700), tensor(0.9700), tensor(0.9700), tensor(0.9700), tensor(0.9700)]
+[47][3800] time: 1.516752 vid: 50
+loss: 6.366719  crc_loss: 1.600046 align_loss: 4.730521 cps_loss: 0.028113 quan_loss: 0.008039 semi_mg_loss: 7.409345  global_loss: 0.735959 
+----------------- Save The Network ------------------------
+length of the dataset:  1000
+number of img views:  1
+Image2Pt---------------------------
+93.64
+Pt2Image---------------------------
+92.55
+average---------------------------
+93.09
+{'Image2Pt': '93.73', 'Pt2Image': '93.15', 'average': 93.44}
+
+Epoch: [48 | 50] 
+
+Threshold: [tensor(0.9700), tensor(0.9700), tensor(0.9700), tensor(0.9700), tensor(0.9700), tensor(0.9700), tensor(0.9700), tensor(0.9700), tensor(0.9700), tensor(0.9700)]
+[48][3900] time: 1.282656 vid: 50
+loss: 5.752110  crc_loss: 1.200070 align_loss: 4.544480 cps_loss: 0.001326 quan_loss: 0.006233 semi_mg_loss: 6.469230  global_loss: 0.680777 
+----------------- Save The Network ------------------------
+length of the dataset:  1000
+number of img views:  1
+Image2Pt---------------------------
+93.59
+Pt2Image---------------------------
+92.82
+average---------------------------
+93.2
+{'Image2Pt': '93.73', 'Pt2Image': '93.15', 'average': 93.44}
+
+Epoch: [49 | 50] 
+
+Threshold: [tensor(0.9700), tensor(0.9700), tensor(0.9700), tensor(0.9700), tensor(0.9700), tensor(0.9700), tensor(0.9700), tensor(0.9700), tensor(0.9700), tensor(0.9700)]
+----------------- Save The Network ------------------------
+length of the dataset:  1000
+number of img views:  1
+Image2Pt---------------------------
+93.72
+Pt2Image---------------------------
+92.75
+average---------------------------
+93.23
+{'Image2Pt': '93.73', 'Pt2Image': '93.15', 'average': 93.44}
+{'Image2Pt': '93.73', 'Pt2Image': '93.15', 'average': 93.44}
